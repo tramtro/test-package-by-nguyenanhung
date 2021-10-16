@@ -1,14 +1,13 @@
 {
     "type": "library",
-    "name": "nguyenanhung/template-php-lib",
-    "description": "Template for repository helper, library - Basic, Simple and Lightweight",
+    "name": "tramtro/test-package-by-nguyenanhung",
+    "description": "Test PHP Package by HungNG",
     "keywords": [
-        "template",
         "helper",
         "library",
         "php"
     ],
-    "homepage": "https://github.com/nguyenanhung/template-php-lib",
+    "homepage": "https://github.com/tramtro/test-package-by-nguyenanhung",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
@@ -20,14 +19,43 @@
         }
     ],
     "require": {
-        "php": ">=5.6"
+        "php": ">=5.3",
+        "nguyenanhung/codeigniter-basic-helper": ">=1.0",
+        "nguyenanhung/codeigniter-database-standalone": ">=1.0",
+        "nguyenanhung/basic-firewall": ">=1.0",
+        "nguyenanhung/helpers": ">=1.0",
+        "nguyenanhung/my-debug": ">=1.0",
+        "nguyenanhung/my-cache": ">=1.0",
+        "nguyenanhung/requests": ">=1.0",
+        "nguyenanhung/database": ">=1.0",
+        "nguyenanhung/monitor": ">=1.0",
+        "nguyenanhung/security": ">=1.0",
+        "nguyenanhung/image": ">=1.0",
+        "nguyenanhung/seo": ">=1.0",
+        "nguyenanhung/upload": ">=1.0",
+        "nguyenanhung/markdown": ">=1.0",
+        "nguyenanhung/mailer-sdk": ">=1.0",
+        "nguyenanhung/omnisend": ">=1.0",
+        "nguyenanhung/paypal-upload-tracking": ">=1.0",
+        "nguyenanhung/php-file-cache": ">=1.0",
+        "nguyenanhung/shorten-url": ">=1.0",
+        "nguyenanhung/strong-passwords-generator": ">=1.0",
+        "nguyenanhung/vn-telco-phonenumber": ">=1.0",
+        "nguyenanhung/web-builder-helper": ">=1.0",
+        "nguyenanhung/frontend-minify": ">=1.0",
+        "nguyenanhung/google-recaptcha-helper": ">=1.0",
+        "nguyenanhung/utils-exchange-rates": ">=1.0",
+        "nguyenanhung/utils-bmi": ">=1.0",
+        "nguyenanhung/utils-gold-price": ">=1.0",
+        "nguyenanhung/yaheiphp": ">=1.0",
+        "nguyenanhung/php-quick-sort": ">=1.0",
+        "bear8421/spreadsheets-basic": ">=1.0",
+        "bear8421/gravatar": ">=1.0",
+        "nguyenanhung/phpaes": ">=3.1"
     },
     "autoload": {
         "psr-4": {
-            "nguyenanhung\\Libraries\\TemplateREPLACE\\": "src/"
-        },
-        "files": [
-            "helpers/helpers.php"
-        ]
+            "nguyenanhung\\TramTro\\PhpPackageBoots\\": "src/"
+        }
     }
 }
