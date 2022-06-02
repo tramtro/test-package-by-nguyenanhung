@@ -13,5 +13,3 @@ If any question & request, please contact following information
 From Vietnam with Love <3
 
 
-
-
