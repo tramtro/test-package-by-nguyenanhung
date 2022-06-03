@@ -12,5 +12,3 @@
 ### Added
 
 - [x] Init Project
-
-
