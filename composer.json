@@ -51,6 +51,7 @@
         "nguyenanhung/php-quick-sort": ">=1.0",
         "nguyenanhung/console": ">=1.0",
         "nguyenanhung/validation": ">=1.0",
+        "nguyenanhung/my-crawler": ">=1.0",
         "bear8421/spreadsheets-basic": ">=1.0",
         "bear8421/gravatar": ">=1.0",
         "nguyenanhung/phpaes": ">=3.1"
